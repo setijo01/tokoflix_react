@@ -11,7 +11,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 
 
 
-const API_KEY = '607cc4bba6dca4cb96fbdef1ca9b62cd';
+const API_KEY = 'tmDB API KEY';
 const MovieDb = require('moviedb');
 const moviedb = new MovieDb(API_KEY);
 
