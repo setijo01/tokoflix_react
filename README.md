@@ -1,6 +1,6 @@
 ##Tokoflix Front-End Mini Project
 
-Before running the app, change the value of 'API_KEY' in App.js to your tmDB API Key.
+Before installing and running the app, change the value of 'API_KEY' in App.js to your tmDB API Key.
 
 
 Made working basic components for the app. Primary features such as listing, searching, and buying movies are working.
@@ -14,3 +14,5 @@ User is able to search on movies based on its title. The search is trigerred upo
 Pagination is set to show 20 movies per page maximum. Forward and back button give the next and previous 10 available pages.
 
 Movie detail page is still yet to be implemented, alongside with redux and routing.
+
+
