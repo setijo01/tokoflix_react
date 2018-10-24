@@ -1,32 +1,58 @@
 .App {
-  text-align: center;
+  background-image: linear-gradient(141deg, #cff4de 0%, #caf0a7 51%, rgb(253, 255, 251) 75%);
+}
+.card-body {
+  background-color: rgba(255,255,255,0.75);
+  opacity: 0;
+  transition: 0.5s;
+}
+.card-body:hover {
+  opacity: 1;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.lds-dual-ring {
+  display: block;
+  width: 64px;
+  height: 64px;
 }
-
-.App-link {
-  color: #61dafb;
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 4px 0 4px 4px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
 }
-
-@keyframes App-logo-spin {
-  from {
+@keyframes lds-dual-ring {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
+}
+
+.page-link,.card-link {
+  background-color: #28A745;
+  color: white !important;
+}
+
+.page-link:hover {
+  color: #28A745 !important;
+}
+
+#owned {
+  color: #28A745 !important;
+  background-color: white !important;
+}
+
+.modal-lg {
+  max-width: 780px;
+  }
+.modal-header {
+  padding: 0;
 }
